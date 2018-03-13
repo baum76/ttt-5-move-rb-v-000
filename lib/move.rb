@@ -13,6 +13,6 @@ def input_to_index(input)
   input.to_i-1
 end
 
-def move(board, input, symbol)
-  board[index] = symbol
+def move(board, input, value)
+  board[index] = value
 end
