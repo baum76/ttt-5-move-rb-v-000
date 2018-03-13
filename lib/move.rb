@@ -11,3 +11,8 @@ input = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 def input_to_index(input)
   input.to_i-1
 end
+
+character = [X, O]
+def move(board, input, character = X)
+
+end
